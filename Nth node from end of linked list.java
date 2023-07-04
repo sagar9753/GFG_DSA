@@ -10,22 +10,19 @@ class Solution
     int getNthFromLast(Node head, int n)
     {
     	int count=0;
-    	Node t = head;
-    	while(t != null){
-    	    t=t.next;
+    
+    	Node temp = head;
+    	Node dummy = new Node(-1);
+    	Node t = dummy;
+    	dummy.next = head;
+    	
+    	while(temp != null){
+    	    if(count >= n-1){
+    	        t=t.next;
+    	    }
+    	    temp=temp.next;
     	    count++;
     	}
-    	if(n > count)
-    	    return -1;
-    	    
-    	count=count-n;
-    	t=head;
-    	
-    	while(count > 0){
-    	    t=t.next;
-    	    count--;
-    	}
-    	
     	return t.data;
     }
 }
