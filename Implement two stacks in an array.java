@@ -1,4 +1,4 @@
-Ques Link - https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1?page=1&difficulty[]=-1&difficulty[]=0&category[]=Stack&sortBy=submissions
+Ques Link - [link](https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1?page=1&difficulty[]=-1&difficulty[]=0&category[]=Stack&sortBy=submissions)
 
 -------------------------------------------------------- Solution -----------------------------------------------
 
